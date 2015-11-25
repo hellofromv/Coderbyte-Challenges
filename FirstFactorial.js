@@ -5,13 +5,15 @@ Use the Parameter Testing feature in the box below to test your code with differ
 
 
 // create firstFactorial function that takes in one param(num)
-
+var firstFactorial = function(num){
 	// create an empty array called values
-
+	var values = [];
 
 	// use for loop with variable i equal to num; as long as i is less than or equal to num, i will increment by 1
-
+	for(var i = 1; i <= num; i++){
 		// push each current value of i into the values array
-
-
+		values.push(i);
+	}
 	// return eval invoked on the joined values array with "*"
+	return eval(values.join('*'));
+};
