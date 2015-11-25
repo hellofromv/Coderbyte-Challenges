@@ -1,3 +1,7 @@
 /*Using the JavaScript language, have the function FirstReverse(str) take the str parameter being passed and return the string in reversed order. 
 
 Use the Parameter Testing feature in the box below to test your code with different arguments.*/
+
+//declare a function called firstReverse with one parameter: str
+
+//return the str value after executing the methods: split(""), reverse(), join("")
